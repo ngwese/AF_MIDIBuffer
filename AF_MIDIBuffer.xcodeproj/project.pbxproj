@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377A37CE07D57F600017886D /* AF_MIDIBuffer_Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 377A37CD07D57F600017886D /* AF_MIDIBuffer_Globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377A37D207D580040017886D /* AF_MIDIBuffer_Globals.c in Sources */ = {isa = PBXBuildFile; fileRef = 377A37D107D580040017886D /* AF_MIDIBuffer_Globals.c */; };
+		37BB3D7F07D50F480012970C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB3D7E07D50F480012970C /* CoreMIDI.framework */; };
+		37BB3E3B07D568E20012970C /* MIDIBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 37BB3E3507D568E20012970C /* MIDIBuffer.c */; };
+		37BB3E3C07D568E20012970C /* MIDIBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E3607D568E20012970C /* MIDIBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB3E3D07D568E20012970C /* MIDIBufferPool.c in Sources */ = {isa = PBXBuildFile; fileRef = 37BB3E3707D568E20012970C /* MIDIBufferPool.c */; };
+		37BB3E3E07D568E20012970C /* MIDIBufferQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 37BB3E3807D568E20012970C /* MIDIBufferQueue.c */; };
+		37BB3E3F07D568E20012970C /* MIDIPacketUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 37BB3E3907D568E20012970C /* MIDIPacketUtils.c */; };
+		37BB3E4007D568E20012970C /* MIDIPacketUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E3A07D568E20012970C /* MIDIPacketUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB3E6807D56FF60012970C /* MIDIBufferPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E6607D56FF60012970C /* MIDIBufferPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB3E6907D56FF60012970C /* MIDIBufferQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E6707D56FF60012970C /* MIDIBufferQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB3E6D07D5703D0012970C /* AF_MIDIBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E6C07D5703D0012970C /* AF_MIDIBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BB3E7807D571640012970C /* MIDIBufferPool_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3E7707D571640012970C /* MIDIBufferPool_Private.h */; };
+		37BB3EA107D5727B0012970C /* MIDIBufferQueue_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BB3EA007D5727B0012970C /* MIDIBufferQueue_Private.h */; };
+		37BB401207D576BD0012970C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB401107D576BD0012970C /* CoreServices.framework */; };
+		8D07F2BE0486CC7A007CD1D0 /* AF_MIDIBuffer_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* AF_MIDIBuffer_Prefix.pch */; };
+		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3758C9D707D5835500209150 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32BAE0B70371A74B00C91783 /* AF_MIDIBuffer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AF_MIDIBuffer_Prefix.pch; sourceTree = "<group>"; };
+		377A37CD07D57F600017886D /* AF_MIDIBuffer_Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AF_MIDIBuffer_Globals.h; sourceTree = "<group>"; };
+		377A37D107D580040017886D /* AF_MIDIBuffer_Globals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AF_MIDIBuffer_Globals.c; sourceTree = "<group>"; };
+		37BB3D7E07D50F480012970C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		37BB3E3507D568E20012970C /* MIDIBuffer.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MIDIBuffer.c; sourceTree = "<group>"; };
+		37BB3E3607D568E20012970C /* MIDIBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIDIBuffer.h; sourceTree = "<group>"; };
+		37BB3E3707D568E20012970C /* MIDIBufferPool.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MIDIBufferPool.c; sourceTree = "<group>"; };
+		37BB3E3807D568E20012970C /* MIDIBufferQueue.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MIDIBufferQueue.c; sourceTree = "<group>"; };
+		37BB3E3907D568E20012970C /* MIDIPacketUtils.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = MIDIPacketUtils.c; sourceTree = "<group>"; };
+		37BB3E3A07D568E20012970C /* MIDIPacketUtils.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIDIPacketUtils.h; sourceTree = "<group>"; };
+		37BB3E6607D56FF60012970C /* MIDIBufferPool.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIDIBufferPool.h; sourceTree = "<group>"; };
+		37BB3E6707D56FF60012970C /* MIDIBufferQueue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MIDIBufferQueue.h; sourceTree = "<group>"; };
+		37BB3E6C07D5703D0012970C /* AF_MIDIBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AF_MIDIBuffer.h; sourceTree = "<group>"; };
+		37BB3E7707D571640012970C /* MIDIBufferPool_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIBufferPool_Private.h; sourceTree = "<group>"; };
+		37BB3EA007D5727B0012970C /* MIDIBufferQueue_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIBufferQueue_Private.h; sourceTree = "<group>"; };
+		37BB401107D576BD0012970C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		37DABA3107DAB9CE002EAE01 /* MIDIBufferQueueInspector.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MIDIBufferQueueInspector.nib; sourceTree = "<group>"; };
+		37DABA3707DAD535002EAE01 /* QueueInspectorController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QueueInspectorController.h; sourceTree = "<group>"; };
+		37DABA3807DAD535002EAE01 /* QueueInspectorController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QueueInspectorController.m; sourceTree = "<group>"; };
+		8D07F2C70486CC7A007CD1D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D07F2C80486CC7A007CD1D0 /* AF_MIDIBuffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AF_MIDIBuffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D07F2C30486CC7A007CD1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB3D7F07D50F480012970C /* CoreMIDI.framework in Frameworks */,
+				37BB401207D576BD0012970C /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D07F2C80486CC7A007CD1D0 /* AF_MIDIBuffer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* AF_MIDIBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				37DABA2D07DAB56A002EAE01 /* UI */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = AF_MIDIBuffer;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				37BB401107D576BD0012970C /* CoreServices.framework */,
+				37BB3D7E07D50F480012970C /* CoreMIDI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D07F2C70486CC7A007CD1D0 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				377A37D107D580040017886D /* AF_MIDIBuffer_Globals.c */,
+				377A37CD07D57F600017886D /* AF_MIDIBuffer_Globals.h */,
+				37BB3EA007D5727B0012970C /* MIDIBufferQueue_Private.h */,
+				37BB3E7707D571640012970C /* MIDIBufferPool_Private.h */,
+				37BB3E6C07D5703D0012970C /* AF_MIDIBuffer.h */,
+				37BB3E6607D56FF60012970C /* MIDIBufferPool.h */,
+				37BB3E6707D56FF60012970C /* MIDIBufferQueue.h */,
+				37BB3E3507D568E20012970C /* MIDIBuffer.c */,
+				37BB3E3607D568E20012970C /* MIDIBuffer.h */,
+				37BB3E3707D568E20012970C /* MIDIBufferPool.c */,
+				37BB3E3807D568E20012970C /* MIDIBufferQueue.c */,
+				37BB3E3907D568E20012970C /* MIDIPacketUtils.c */,
+				37BB3E3A07D568E20012970C /* MIDIPacketUtils.h */,
+				32BAE0B70371A74B00C91783 /* AF_MIDIBuffer_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		37DABA2D07DAB56A002EAE01 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				37DABA3107DAB9CE002EAE01 /* MIDIBufferQueueInspector.nib */,
+				37DABA3707DAD535002EAE01 /* QueueInspectorController.h */,
+				37DABA3807DAD535002EAE01 /* QueueInspectorController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D07F2BD0486CC7A007CD1D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07F2BE0486CC7A007CD1D0 /* AF_MIDIBuffer_Prefix.pch in Headers */,
+				37BB3E3C07D568E20012970C /* MIDIBuffer.h in Headers */,
+				37BB3E4007D568E20012970C /* MIDIPacketUtils.h in Headers */,
+				37BB3E6807D56FF60012970C /* MIDIBufferPool.h in Headers */,
+				37BB3E6907D56FF60012970C /* MIDIBufferQueue.h in Headers */,
+				37BB3E6D07D5703D0012970C /* AF_MIDIBuffer.h in Headers */,
+				37BB3E7807D571640012970C /* MIDIBufferPool_Private.h in Headers */,
+				37BB3EA107D5727B0012970C /* MIDIBufferQueue_Private.h in Headers */,
+				377A37CE07D57F600017886D /* AF_MIDIBuffer_Globals.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D07F2BC0486CC7A007CD1D0 /* AF_MIDIBuffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374F67E30858BF52005BA530 /* Build configuration list for PBXNativeTarget "AF_MIDIBuffer" */;
+			buildPhases = (
+				8D07F2BD0486CC7A007CD1D0 /* Headers */,
+				8D07F2BF0486CC7A007CD1D0 /* Resources */,
+				8D07F2C10486CC7A007CD1D0 /* Sources */,
+				8D07F2C30486CC7A007CD1D0 /* Frameworks */,
+				8D07F2C50486CC7A007CD1D0 /* Rez */,
+				3758C9D707D5835500209150 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AF_MIDIBuffer;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = AF_MIDIBuffer;
+			productReference = 8D07F2C80486CC7A007CD1D0 /* AF_MIDIBuffer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 374F67E70858BF52005BA530 /* Build configuration list for PBXProject "AF_MIDIBuffer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* AF_MIDIBuffer */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D07F2BC0486CC7A007CD1D0 /* AF_MIDIBuffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D07F2BF0486CC7A007CD1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D07F2C50486CC7A007CD1D0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D07F2C10486CC7A007CD1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB3E3B07D568E20012970C /* MIDIBuffer.c in Sources */,
+				37BB3E3D07D568E20012970C /* MIDIBufferPool.c in Sources */,
+				37BB3E3E07D568E20012970C /* MIDIBufferQueue.c in Sources */,
+				37BB3E3F07D568E20012970C /* MIDIPacketUtils.c in Sources */,
+				377A37D207D580040017886D /* AF_MIDIBuffer_Globals.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		374F67E40858BF52005BA530 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					debug,
+					profile,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AF_MIDIBuffer_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__DEBUG__,
+					__LOG__,
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Dynamic;
+				MACH_O_TYPE = mh_dylib;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AF_MIDIBuffer;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		374F67E50858BF52005BA530 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					debug,
+					profile,
+				);
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AF_MIDIBuffer_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__DEBUG__,
+					__LOG__,
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Dynamic;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AF_MIDIBuffer;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		374F67E60858BF52005BA530 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					debug,
+					profile,
+				);
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AF_MIDIBuffer_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__DEBUG__,
+					__LOG__,
+				);
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Frameworks;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Dynamic;
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = AF_MIDIBuffer;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		374F67E80858BF52005BA530 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		374F67E90858BF52005BA530 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		374F67EA0858BF52005BA530 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374F67E30858BF52005BA530 /* Build configuration list for PBXNativeTarget "AF_MIDIBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374F67E40858BF52005BA530 /* Development */,
+				374F67E50858BF52005BA530 /* Deployment */,
+				374F67E60858BF52005BA530 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		374F67E70858BF52005BA530 /* Build configuration list for PBXProject "AF_MIDIBuffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374F67E80858BF52005BA530 /* Development */,
+				374F67E90858BF52005BA530 /* Deployment */,
+				374F67EA0858BF52005BA530 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                resetCounters = id; 
+                togglePool0Allocation = id; 
+                togglePool1Allocation = id; 
+                toggleQueueActive = id; 
+                toggleQueueAllocation = id; 
+            }; 
+            CLASS = QueueInspectorController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                p0BufferCount = NSTextField; 
+                p0BufferRequestCount = NSTextField; 
+                p0BufferSize = NSTextField; 
+                p0DynamicAllocations = NSTextField; 
+                p0LockErrors = NSTextField; 
+                p0MinBufferCount = NSTextField; 
+                p1BufferCount = NSTextField; 
+                p1BufferRequestCount = NSTextField; 
+                p1BufferSize = NSTextField; 
+                p1DynamicAllocations = NSTextField; 
+                p1LockErrors = NSTextField; 
+                p1MinBufferCount = NSTextField; 
+                qDynamicAllocations = NSTextField; 
+                qMaxPacketListLength = NSTextField; 
+                qMaxPacketSize = NSTextField; 
+                qNotifyErrors = NSTextField; 
+                qPacketListsDropped = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

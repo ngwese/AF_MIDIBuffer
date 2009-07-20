@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AF_MIDIBuffer' target in the 'AF_MIDIBuffer' project.
+//
+
+#include <CoreServices/CoreServices.h>
+#include <CoreMIDI/CoreMIDI.h>
+#include "AF_MIDIBuffer.h"
